@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Stock Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>AI Tracker <span class="highlight">Pro</span></h1>
+            <p class="subtitle">Real-time insights into the AI revolution</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search for any AI tool (e.g., Gemini, Midjourney)...">
+            </div>
+        </div>
+
+        <main id="toolsGrid" class="tools-grid">
+            <!-- Tools will be injected here by JS -->
+            <div class="loading">Loading AI Tools...</div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
